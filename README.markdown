@@ -53,18 +53,10 @@ See LICENSE file for details.
 **Lệnh setup
 
 `pkg install git cmake make clang`
-
 `git clone https://github.com/zrax/pycdc`
-
 `cd pycdc`
-
 `cmake -DCMAKE_INSTALL_PREFIX="${PREFIX}"`
-
 `make && make install`
-
 `pkg install termux-elf-cleaner`
-
 `termux-elf-cleaner pycdc`
-
 `termux-elf-cleaner pycdas`
-
